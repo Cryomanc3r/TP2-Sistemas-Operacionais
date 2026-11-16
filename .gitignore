@@ -1,0 +1,12 @@
+# Build
+bin/
+obj/
+
+# Traces de acesso (grandes; os sintéticos são gerados por testes/gerar_traces.py)
+*.log
+!testes/pequeno.log
+
+# Auxiliares do LaTeX
+relatorio/*.aux
+relatorio/*.out
+relatorio/*.toc
